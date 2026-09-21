@@ -169,7 +169,7 @@
       valueEl.textContent = fmt(v, cfg.dp);
       var ok = inTol(m);
       statusEl.setAttribute('data-state', ok ? 'ok' : 'bad');
-      var statusText = ok ? 'U tolerancije' : 'Van tolerancije';
+      var statusText = ok ? 'U toleranciji' : 'Van tolerancije';
       if (statusEl.textContent !== statusText) statusEl.textContent = statusText;
       actionBtn.setAttribute('data-state', ok ? 'hit' : 'fix');
       if (parseFloat(range.value) !== v) range.value = v;
